@@ -1,0 +1,53 @@
+package Collections;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+public class LinkedListEg {
+
+	public static void main(String[] args) {
+		// creation '
+				// accessing the data
+				// updating the data 
+				// removing of the data
+				
+				LinkedList<String>   al = new LinkedList<String>();
+				
+				// insertion of that data 
+				
+				al.add("Ravi");
+				
+				al.add("JOhn");
+				
+				al.add("Tina");
+				
+				al.add("Peter");
+				
+				al.add("Sanjay");
+				
+				al.add("Rima");
+				
+				al.add("Ravi");
+				
+				al.add(null);
+				
+				System.out.println(al);
+				
+				System.out.println(al.get(2));
+				
+				System.out.println(al.indexOf("Peter"));
+				
+				System.out.println(al.isEmpty());
+				
+				System.out.println(al.remove(4));
+				
+				System.out.println(al);
+				
+				System.out.println(al.set(4, "King"));
+				
+				System.out.println(al);
+
+				System.out.println(al.size());
+	}
+
+}
